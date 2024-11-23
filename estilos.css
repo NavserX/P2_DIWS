@@ -1,0 +1,111 @@
+/* Estilo general del body */
+body {
+    font-family: 'Work Sans', sans-serif; /* Fuente principal del sitio */
+    color: #000000; /* Color del texto */
+    background-color: #FFFFFF; /* Fondo blanco */
+    margin: 0; /* Elimina márgenes externos */
+    padding: 0; /* Elimina relleno interno */
+}
+
+/* Estilo para la cabecera */
+header {
+    background-color: #000000; /* Fondo negro */
+    text-align: center; /* Centra el contenido */
+    color: #FFFFFF; /* Texto blanco */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    padding: 10px 23%; /* Espaciado interno con margen izquierdo */
+    position: fixed; /* Fija el pie de página en la parte inferior */
+    bottom: 0; /* Ubica el pie al final */
+    width: 100%; /* Ocupa todo el ancho */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Contenedor principal */
+main {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 100px 20px; /* Espaciado alrededor del contenido */
+}
+
+/* Estilo para los videos incrustados */
+iframe {
+    display: block; /* El iframe se comporta como un bloque */
+    margin: 20px auto; /* Centra el iframe */
+}
+
+/* Estilo para las tablas */
+table {
+    width: 100%; /* La tabla ocupa todo el ancho disponible */
+    border-collapse: collapse; /* Elimina los espacios entre bordes */
+    margin: 20px 0; /* Separación respecto a otros elementos */
+}
+
+th, td {
+    padding: 10px; /* Espaciado interno en celdas */
+    border: 1px solid #000; /* Bordes de las celdas */
+    text-align: left; /* Alineación del texto */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #E0F7FA; /* Color de fondo para filas alternas */
+}
+
+/* Estilo para créditos de imágenes */
+.creditos-imagen {
+    font-size: 0.8em; /* Tamaño de letra reducido */
+    color: #666; /* Color tenue */
+}
+
+/* Estilo para párrafos destacados */
+.parrafo-destacado {
+    font-size: 1.5em; /* Tamaño de letra más grande */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para títulos de secciones */
+h2 {
+    text-align: center; /* Centra los títulos principales */
+}
+
+/* Estilo para los párrafos */
+p {
+    text-align: justify; /* Justifica el texto */
+    margin-bottom: 20px; /* Espaciado entre párrafos */
+}
+
+/* Estilo para enlaces en el menú */
+nav a {
+    color: #FFFFFF; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0 15px; /* Espaciado entre enlaces */
+    border-bottom: 2px solid transparent; /* Sin borde visible por defecto */
+}
+
+/* Efecto hover y estado activo en el menú */
+nav a:hover, nav a.active {
+    color: #6BDEC8; /* Color de texto en hover o activo */
+    border-bottom: 2px solid #6BDEC8; /* Borde visible en hover o activo */
+}
+
+/* Estilo general para enlaces */
+a {
+    color: #942C0B; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-bottom: 1px dotted #942C0B; /* Borde punteado por defecto */
+}
+
+/* Efecto hover en enlaces */
+a:hover {
+    border-bottom: 1px solid #942C0B; /* Cambia a línea sólida en hover */
+}
+
+/* Página actual en el menú */
+.current-page {
+    border-bottom: 2px solid #6BDEC8; /* Resalta el borde del enlace actual */
+}

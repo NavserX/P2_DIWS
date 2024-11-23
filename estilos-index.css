@@ -1,0 +1,139 @@
+/* Estilos para la página index.html */
+
+/* Estilo general del cuerpo */
+body {
+    /* Elimino márgenes y padding predeterminados */
+    margin: 0;
+    padding: 0;
+
+    /* Establezco la fuente principal */
+    font-family: 'Work Sans', sans-serif;
+
+    /* Defino la imagen de fondo */
+    background-image: url('img/home-hero.jpg');
+    background-size: cover; /* Ajusto la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen de fondo */
+
+    /* Defino el color de texto y lo centro */
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para la cabecera */
+header {
+    /* Añade un margen superior */
+    margin-top: 20px;
+}
+
+/* Estilo para la imagen del logotipo en la cabecera */
+header img {
+    /* Ajusto el tamaño máximo del logotipo */
+    max-width: 300px;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    /* Espacio superior e inferior del menú */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces del menú */
+nav a {
+    /* Defino el margen entre enlaces */
+    margin: 0 15px;
+
+    /* Color del texto */
+    color: white;
+
+    /* Sin subrayado inicial */
+    text-decoration: none;
+
+    /* Negrita para resaltar */
+    font-weight: bold;
+
+    /* Línea inferior transparente por defecto */
+    border-bottom: 2px solid transparent;
+
+    /* Espacio bajo el texto para destacar visualmente */
+    padding-bottom: 5px;
+}
+
+/* Efecto hover en los enlaces del menú */
+nav a:hover {
+    /* Cambio el color al pasar el ratón */
+    color: #6BDEC8;
+
+    /* Resalto la línea inferior */
+    border-bottom: 2px solid #6BDEC8;
+}
+
+/* Estilo para el enlace activo del menú */
+nav a.active {
+    /* Color activo */
+    color: #6BDEC8;
+
+    /* Resalto la línea inferior */
+    border-bottom: 2px solid #6BDEC8;
+}
+
+/* Contenedor principal del contenido */
+.contenido-principal {
+    /* Espaciado superior amplio */
+    margin-top: 100px;
+}
+
+/* Estilo para el título principal */
+.contenido-principal h1 {
+    /* Aumento considerable del tamaño del texto */
+    font-size: 4em;
+}
+
+/* Estilo para el subtítulo */
+.subtitulo {
+    /* Tamaño más pequeño que el título principal */
+    font-size: 1.5em;
+
+    /* Espacio adicional superior */
+    margin-top: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    /* Coloco el pie al final de la página */
+    position: absolute;
+    bottom: 0;
+
+    /* Hago que ocupe todo el ancho */
+    width: 100%;
+
+    /* Color del texto */
+    color: white;
+
+    /* Espaciado vertical interno */
+    padding: 10px 0;
+}
+
+/* Estilo para los enlaces en el pie de página */
+footer a {
+    /* Color blanco inicial */
+    color: white;
+
+    /* Sin subrayado por defecto */
+    text-decoration: none;
+
+    /* Margen entre enlaces */
+    margin: 0 10px;
+}
+
+/* Efecto hover para los enlaces del pie de página */
+footer a:hover {
+    /* Añade subrayado al pasar el ratón */
+    text-decoration: underline;
+}
+
+/* Estilo para el texto adicional en el pie de página */
+footer p {
+    /* Espacio superior respecto a los enlaces */
+    margin-top: 10px;
+}
